@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: word-count
+  labels:
+    app: wc-python
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wc-python
+  template:
+    metadata:
+      labels:
+        app: wc-python
+    spec:
+      containers:
+      - name: wc-python
+        image: sanju7m/python-word-count:v1
+        ports:
+        - containerPort: 5000
+
