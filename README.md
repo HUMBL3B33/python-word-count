@@ -2,7 +2,8 @@
 
 This project demonstrates the process of Dockerizing a simple Python application, pushing the Docker image to Docker Hub, and then running the container. The application within the container listens on port 5000 internally, but you can access it on any port of your choice.
 
-
+![Alt](python-wc-build-successfully.png)
+![Alt](Container-running-succesfully.png)
 
 ## Getting Started
 
