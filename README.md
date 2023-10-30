@@ -57,6 +57,11 @@ docker login
 docker push your-dockerhub-username/project-name
 ```
 
+![Alt](pushed-successfully.png)
+
+```bash
+My Image: docker pull sanju7m/python-wc
+```
 ### Running the Docker Container
 
 1. If the Docker image isn't on your machine, pull it from Docker Hub with the following command:
